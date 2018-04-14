@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  evento: one
+  fecha: 2018-04-14
+  hora: 2018-04-14 17:02:05
+  ciudad: MyString
+  zona: MyString
+  precioinstancia: 1
+  cocinero: one
+  cupominimo: 1
+  cupomaximo: 1
+  estadoinstancia: MyString
+  estadorazon: MyString
+
+two:
+  evento: two
+  fecha: 2018-04-14
+  hora: 2018-04-14 17:02:05
+  ciudad: MyString
+  zona: MyString
+  precioinstancia: 1
+  cocinero: two
+  cupominimo: 1
+  cupomaximo: 1
+  estadoinstancia: MyString
+  estadorazon: MyString

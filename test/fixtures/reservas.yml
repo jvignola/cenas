@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  usuario: one
+  empresa: one
+  evento: one
+  eventoinstancia: one
+  precio: 1
+  cantidadpersonas: 1
+  codigo: MyString
+
+two:
+  usuario: two
+  empresa: two
+  evento: two
+  eventoinstancia: two
+  precio: 1
+  cantidadpersonas: 1
+  codigo: MyString

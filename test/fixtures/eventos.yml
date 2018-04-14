@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  descripcion: MyText
+  empresa: one
+  precio: 1
+  fechafinal: 2018-04-14
+  estadoinstancia: MyString
+
+two:
+  nombre: MyString
+  descripcion: MyText
+  empresa: two
+  precio: 1
+  fechafinal: 2018-04-14
+  estadoinstancia: MyString
