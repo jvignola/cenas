@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180414220942) do
+ActiveRecord::Schema.define(version: 20180414223547) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace"
@@ -67,15 +67,15 @@ ActiveRecord::Schema.define(version: 20180414220942) do
     t.string   "ciudad"
     t.string   "zona"
     t.integer  "precioinstancia"
-    t.integer  "cocinero_id"
+    t.integer  "organizador_id"
     t.integer  "cupominimo"
     t.integer  "cupomaximo"
     t.string   "estadoinstancia"
     t.string   "estadorazon"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
-    t.index ["cocinero_id"], name: "index_eventoinstancia_on_cocinero_id"
     t.index ["evento_id"], name: "index_eventoinstancia_on_evento_id"
+    t.index ["organizador_id"], name: "index_eventoinstancia_on_organizador_id"
   end
 
   create_table "eventos", force: :cascade do |t|
